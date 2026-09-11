@@ -3,7 +3,7 @@
   "id": "maiosx.workspaceswitcher",
   "name": "Speaker Corners",
   "version": "1.0.0",
-  "author": "nagual",
+  "author": "maiosx",
   "license": "MIT",
   "description": "Floating workspace switcher on a bottom-right hot corner, in one masked, click-through surface.",
   "kinds": [
