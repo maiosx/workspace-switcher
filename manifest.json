@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "nagualcode.speakercorners",
+  "name": "Speaker Corners",
+  "version": "1.0.0",
+  "author": "nagual",
+  "license": "MIT",
+  "description": "Floating workspace switcher on a bottom-right hot corner, in one masked, click-through surface.",
+  "kinds": [
+    "panel"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "panel": "Speakercorners.qml"
+  }
+}
