@@ -1,4 +1,5 @@
 # Workspace Switcher
+<img width="2521" height="1363" alt="Preview" src="Preview.png" />
 
 > One corner. One lightweight, fully click-through Omarchy plugin.
 > A hot corner that **speaks** — and a floating workspace switcher that listens.
