@@ -5,18 +5,18 @@
 > A hot corner that **speaks** — and a floating workspace switcher that listens.
 ---
 
-## 🎯 What it does
+## What it does
 
-- **🖱️ Bottom-right hot corner** — park the cursor, let a tiny dwell timer
+- **Bottom-right hot corner** — park the cursor, let a tiny dwell timer
   fire: toggle the workspace floating strip, or run your own command.
   Everything else stays fully click-through.
-- **🌆 Floating workspace strip** — hover and wander between
+- **Floating workspace strip** — hover and wander between
   workspaces. Each card shows a live preview with app icons resolved straight
   from your desktop entries, an urgent dot, and a `+` to mint a new workspace.
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```sh
 omarchy plugin add https://github.com/maiosx/workspace-switcher.git --enable
@@ -28,7 +28,7 @@ omarchy restart shell
 omarchy plugin remove maiosx.workspaceswitcher
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Settings live in the `workspaceswitcher` entry of
 `~/.config/omarchy/shell.json`, for example:
@@ -55,20 +55,20 @@ shell niceties are all fair game.
 
 ---
 
-## 🦾 Requirements
+## Requirements
 
 - **Omarchy** (shell + `omarchy-shell` IPC)
 - **Hyprland** (native `WlrLayershell` + Hyprland IPC)
 - A **Nerd Font** on the system (default: `JetBrainsMono Nerd Font`) for all the
   fancy glyphs
 
-## 🧱 Roof tiles
+## Roof tiles
 
 - `Speakercorners.qml` — the whole single-surface overlay
 - `IconModel.js` — app icon resolution for the workspace cards (a faithful
   subset of Omarchy's HUD model)
 - `Workspaces.js` — Hyprland → plain-JS workspace model builder
 
-## 🚗 License
+## License
 
-MIT — go ahead, remix the corner. 🛹
+MIT
