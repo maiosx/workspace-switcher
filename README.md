@@ -10,7 +10,7 @@
 - **🖱️ Bottom-right hot corner** — park the cursor, let a tiny dwell timer
   fire: toggle the workspace floating strip, or run your own command.
   Everything else stays fully click-through.
-- **🌆 Floating workspace strip (bottom-right)** — hover and wander between
+- **🌆 Floating workspace strip** — hover and wander between
   workspaces. Each card shows a live preview with app icons resolved straight
   from your desktop entries, an urgent dot, and a `+` to mint a new workspace.
 
