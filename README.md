@@ -26,10 +26,8 @@ bloat — one surface, `~1.5 KB` of attitude.
 
 ## 📦 Installation
 
-omarchy plugin add https://github.com/nagualcode/omarchy-speakercorners.git --enable
-
-
 ```sh
+omarchy plugin add https://github.com/maiosx/workspace-switcher.git --enable
 omarchy restart shell
 ```
 
