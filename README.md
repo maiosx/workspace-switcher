@@ -1,16 +1,7 @@
-# 🗣️ Speaker Corners
+# Workspace Switcher
 
 > One corner. One lightweight, fully click-through Omarchy plugin.
 > A hot corner that **speaks** — and a floating workspace switcher that listens.
-
-**Speaker Corners** puts a floating workspace switcher (bottom-right) behind a
-single hot corner in a masked, click-through overlay. No window stack, no
-bloat — one surface, `~1.5 KB` of attitude.
-
-![izi](https://img.shields.io/badge/omarchy-ready-blueviolet)
-![hyprland](https://img.shields.io/badge/hyprland-native-2ea44f)
-
-![preview](preview.jpg)
 ---
 
 ## 🎯 What it does
