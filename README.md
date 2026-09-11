@@ -1,4 +1,4 @@
-# 🗣️ Speaker Corners
+# 🗣️ Worspace Switcher
 
 > One corner. One lightweight, fully click-through Omarchy plugin.
 > A hot corner that **speaks** — and a floating workspace switcher that listens.
@@ -26,7 +26,7 @@ bloat — one surface, `~1.5 KB` of attitude.
 
 ## 📦 Installation
 
-omarchy plugin add https://github.com/nagualcode/omarchy-speakercorners.git --enable
+omarchy plugin add https://github.com/maiosx/workspace-switcher.git --enable
 
 
 ```sh
