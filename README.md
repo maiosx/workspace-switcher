@@ -1,4 +1,4 @@
-# 🗣️ Worspace Switcher
+# 🗣️ Speaker Corners
 
 > One corner. One lightweight, fully click-through Omarchy plugin.
 > A hot corner that **speaks** — and a floating workspace switcher that listens.
@@ -26,7 +26,7 @@ bloat — one surface, `~1.5 KB` of attitude.
 
 ## 📦 Installation
 
-omarchy plugin add https://github.com/maiosx/workspace-switcher.git --enable
+omarchy plugin add https://github.com/nagualcode/omarchy-speakercorners.git --enable
 
 
 ```sh
@@ -34,16 +34,16 @@ omarchy restart shell
 ```
 
 ## Removal
-omarchy plugin remove nagualcode.speakercorners
+omarchy plugin remove maiosx.workspaceswitcher
 
 ## ⚙️ Configuration
 
-Settings live in the `speakercorners` entry of
+Settings live in the `workspaceswitcher` entry of
 `~/.config/omarchy/shell.json`, for example:
 
 ```jsonc
 {
-  "id": "nagualcode.speakercorners",
+  "id": "maiosx.workspaceswitcher",
   "enabled": true,
   "dwellMs": 139,          // how long the pointer must rest to fire (120–3000)
   "targetSize": 8,         // hot-corner hitbox, in px

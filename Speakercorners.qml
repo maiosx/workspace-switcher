@@ -21,7 +21,7 @@ import "IconModel.js" as IconModel
 //
 // Configuration lives in shell.json in the plugin's own entry:
 //   "plugins": [
-//     { "id": "speakercorners",
+//     { "id": "workspaceswitcher",
 //       "dwellMs": 139, "targetSize": 8,
 //       "bottomRightAction": "command","bottomRightCommand": "omarchy-shell workspace-overview toggle" }
 //   ]
@@ -40,7 +40,7 @@ Item {
 
   readonly property bool anyOpen: root.workspacesOpened
   // The shell's isPluginOpen() reads `opened` off the loaded item; keep it in
-  // sync so `omarchy-shell shell toggle speakercorners` round-trips cleanly.
+  // sync so `omarchy-shell shell toggle workspaceswitcher` round-trips cleanly.
   readonly property bool opened: root.anyOpen
 
   readonly property var appLibrary: root.shell ? root.shell.appLibrary : null
@@ -74,7 +74,7 @@ Item {
       list = shell.shellConfig.plugins
     if (Array.isArray(list)) {
       for (var i = 0; i < list.length; i++) {
-        if (list[i] && String(list[i].id) === "speakercorners") { cfg = list[i]; break }
+        if (list[i] && String(list[i].id) === "workspaceswitcher") { cfg = list[i]; break }
       }
     }
     root.pluginSettings = cfg
@@ -137,7 +137,7 @@ Item {
       if (method === "toggle") { root.toggleWorkspaces() } else if (method === "open") { root.showWorkspaces() } else if (method === "close") { root.hideWorkspaces() } else return false
       return true
     }
-    if (target === "speakercorners") {
+    if (target === "workspaceswitcher") {
       switch (method) {
       case "toggle": root.toggle(); break
       case "open": root.open(""); break
@@ -446,7 +446,7 @@ Item {
   }
 
   IpcHandler {
-    target: "speakercorners"
+    target: "workspaceswitcher"
     function open(): string { root.open(""); return "ok" }
     function close(): string { root.close(); return "ok" }
     function toggle(): string { root.toggle(); return "ok" }
@@ -511,7 +511,7 @@ Item {
     visible: true
     anchors { top: true; bottom: true; left: true; right: true }
     color: "transparent"
-    WlrLayershell.namespace: "omarchy-speakercorners"
+    WlrLayershell.namespace: "omarchy-workspaceswitcher"
     WlrLayershell.layer: WlrLayer.Overlay
     WlrLayershell.keyboardFocus: WlrKeyboardFocus.None
     exclusionMode: ExclusionMode.Ignore
