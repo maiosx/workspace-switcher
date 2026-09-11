@@ -23,7 +23,9 @@ omarchy restart shell
 ```
 
 ## Removal
+```sh
 omarchy plugin remove maiosx.workspaceswitcher
+```
 
 ## ⚙️ Configuration
 
